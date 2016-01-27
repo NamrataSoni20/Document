@@ -1,0 +1,47 @@
+STEP 1
+$ echo "filename" >> filename.txt
+STEP 2
+$ git init
+STEP 3
+$ git add filename.txt
+STEP 4
+$ git commit -m "github commit statement or any string"
+STEP 5
+$ git remote add github http://github.com/NamrataSoni20/Static_page[directory or repository name in which you want to push file].git
+STEP 6
+$ git push -u github master[its a branch name]
+STEP 7
+Then it will ask you for username : NamrataSoni20 [your username on github]
+STEP 8
+Then it will ask you for password :    [your github account password]
+:)complete...
+
+
+
+***************COMMANDS FOR GIT HUB*****************
+1. $ git remote -v [remote login  names ]
+2. $ git remote rm origin [remote login name]
+3. $ git status
+4. $ git add -A [to add file from directory]
+5. $ git add [file name]
+6. $ git config --gloable user.name "your name"
+7. $ git config --globle user.email "your email id"
+
+
+
+NOTE ::: 
+      In STEP 5 ,if you want to add your repository or project on bitbucket then change the name of origin which is on your bitbucket account.
+
+  STEP 5
+   $ git remote add origin http://github.com/NamrataSoni20/Static_page[directory or repository name in which you want to push file].git
+
+  STEP 6
+   $ git push -u origin master[its a branch name]
+   
+  STEP 8
+  Then it will ask you for password :    [your bibucket account password]
+:)complete...
+
+
+
+
