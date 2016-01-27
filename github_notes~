@@ -1,0 +1,51 @@
+[configuring git]
+$ git config --global user.name "Your Name"
+$ git config --global user.email "you@example.com"
+
+[to create a repo:]
+$ git init
+
+[adding new origin(remote link setup):]
+
+$ git remote add origin https://_parth_modi@bitbucket.org/ror_solute/first_demo.git
+$ git remote add origin_github https://github.com/ror_solute/first_demo.git
+
+//////where origin and origin_github are name of remote repository links
+//////and first_demo is name of repository and first_demo.git is git file of the same repository.
+[show which origins(remote repo links are available)]
+$ git remote -v
+
+[removing a particular remote repository links]
+$ git remote rm origin
+
+[checking status of repo, showing files that are changed after last commit]
+$ git status
+
+[adding changed files]
+$ git add -A    ////to add all files that are changed
+$ git add {file-name}   ////to add a particular file that changed
+
+
+[committing changes]
+$ git commit -m "message"
+see more on following link:
+https://git-scm.com/docs/git-commit
+
+
+[pushing changes to repo]
+
+here, origin and origin_github are name of remote repository links.
+and master is branch name to which changes are commited.
+you can use other branch names if they exist.
+
+
+$ git push -u origin master
+$ git push -u origin_github master
+
+
+
+$ git branch <branch>
+
+
+
+
