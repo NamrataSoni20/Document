@@ -42,11 +42,52 @@ you can use other branch names if they exist.
 $ git push -u origin master
 $ git push -u origin_github master
 
+/////////////////////////////////////////////////////////////////////////////////////////
+about collaborations in github
+refer to following link for more details
+https://www.atlassian.com/git/tutorials/syncing
 
+
+[first, clone repo in your pc to desired folder. ]
+[This is two step process.
+1.fetch content and
+2. merge that content with the branch you are working on]
+
+
+1.[fetch content]
+$ git fetch <remote>
+$ git fetch <remote> <branch>
+
+[getting details of branches]
+$ git branch -r   //shows the branches you might see after fetching from the origin remote
 
 $ git branch <branch>
 
+
+2.[merge that content with the branch you are working on]
+
 $ git merge origin/master
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////
+git pull - does the above process of fetching and merging into single step
+
+$ git pull <remote>
+
+Fetch the specified remote’s copy of the current branch and immediately merge it into the local copy. 
+This is the same as 
+$ git fetch <remote> followed by 
+$ git merge origin/<current-branch>.
+
+
+$ git pull --rebase <remote>
+Same as the above command, but instead of using git merge to integrate the remote branch with the local one, use git rebase.
+
+\\\\\\\\\\\\\\\what is difference between rebase and simple pull??////////////////////////
+
+
 
 
 

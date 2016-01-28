@@ -46,6 +46,8 @@ $ git push -u origin_github master
 
 $ git branch <branch>
 
+$ git merge origin/master
+
 
 
 
