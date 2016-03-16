@@ -89,6 +89,13 @@ Same as the above command, but instead of using git merge to integrate the remot
 
 
 
+//////////////////////////////merging to master branch\\\\\\\\\\\\\\\\\\\
+git checkout master
+git pull origin master
+git merge branch-name
+git push origin master
+
+
 
 
 
